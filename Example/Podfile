@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BitelSDK_Example' do
+  pod 'BitelSDK', :path => '../'
+
+  target 'BitelSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
