@@ -1,0 +1,6 @@
+framework module SelectController {
+  umbrella header "SelectController-umbrella.h"
+
+  export *
+  module * { export * }
+}

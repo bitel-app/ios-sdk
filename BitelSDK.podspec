@@ -32,11 +32,18 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BitelSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BitelSDK' => ['BitelSDK/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'BitelSDK' => ['BitelSDK/Assets/*.png', 'BitelSDK/Assets/*.ttf']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'Socket.IO-Client-Swift', '~> 11.1.0'
+  s.dependency 'SwiftHTTP', '~> 2.0.0'
+s.dependency 'SwiftyJSON'
+s.dependency 'RxSwift',    '~> 3.0'
+s.dependency 'RxCocoa',    '~> 3.0'
+s.dependency 'SelectController', '~> 2.5.0'
 end

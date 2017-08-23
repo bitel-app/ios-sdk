@@ -39,12 +39,12 @@
 		607FACE51AFB9204008FA782 /* BitelSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitelSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7581F7FC2CBA21046B0BEA2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		788AEB02B293FD74FC591DA6 /* BitelSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BitelSDK.podspec; path = ../BitelSDK.podspec; sourceTree = "<group>"; };
+		7581F7FC2CBA21046B0BEA2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		788AEB02B293FD74FC591DA6 /* BitelSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BitelSDK.podspec; path = ../BitelSDK.podspec; sourceTree = "<group>"; };
 		A5612942683B508A8CB1D281 /* Pods_BitelSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitelSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD139AD990E7FF806A92C210 /* Pods-BitelSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitelSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitelSDK_Example/Pods-BitelSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C3E081CBE3FF10E6226A9B1B /* Pods_BitelSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitelSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC788DB285D14FDA9C8D5153 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC788DB285D14FDA9C8D5153 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED6D113A245F49463DDB0859 /* Pods-BitelSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitelSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitelSDK_Example/Pods-BitelSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FAFD308B702253ADA8B1F5B7 /* Pods-BitelSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitelSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitelSDK_Tests/Pods-BitelSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 53HQ25Z97C;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 53HQ25Z97C;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,7 +498,9 @@
 			baseConfigurationReference = AD139AD990E7FF806A92C210 /* Pods-BitelSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 53HQ25Z97C;
 				INFOPLIST_FILE = BitelSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -510,7 +514,9 @@
 			baseConfigurationReference = ED6D113A245F49463DDB0859 /* Pods-BitelSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 53HQ25Z97C;
 				INFOPLIST_FILE = BitelSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -523,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 018B7E96805C161CA4722AF3 /* Pods-BitelSDK_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 53HQ25Z97C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FAFD308B702253ADA8B1F5B7 /* Pods-BitelSDK_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 53HQ25Z97C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

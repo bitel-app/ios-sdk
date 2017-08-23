@@ -1,0 +1,38 @@
+PODS:
+  - BitelSDK (0.1.0):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+    - SelectController (~> 2.5.0)
+    - Socket.IO-Client-Swift (~> 11.1.0)
+    - SwiftHTTP (~> 2.0.0)
+    - SwiftyJSON
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - SelectController (2.5.0)
+  - Socket.IO-Client-Swift (11.1.0):
+    - StarscreamSocketIO (~> 8.0.3)
+  - StarscreamSocketIO (8.0.3)
+  - SwiftHTTP (2.0.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - BitelSDK (from `../`)
+
+EXTERNAL SOURCES:
+  BitelSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BitelSDK: cbd66f85ceed5035cf16b6d3e0c02249f63b83b1
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SelectController: efe0cbc289ebf5fa43609b34c2a97d5cefd7687e
+  Socket.IO-Client-Swift: 863e9fa70602e3771b208d5849a8dbaed039218d
+  StarscreamSocketIO: acfd216cb72a789a1e432cb21a6f9ecd5df716e8
+  SwiftHTTP: faa1a5f7670568ffc9361898229dbe84a6088468
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 64843578273ad31442d91e2737fb0b52d8405f60
+
+COCOAPODS: 1.2.1

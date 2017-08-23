@@ -1,0 +1,48 @@
+{
+  "name": "BitelSDK",
+  "version": "0.1.0",
+  "summary": "A short description of BitelSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mohsenShakiba/BitelSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mohsenShakiba": "work.shakiba@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mohsenShakiba/BitelSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BitelSDK/Classes/**/*",
+  "resource_bundles": {
+    "BitelSDK": [
+      "BitelSDK/Assets/*.png",
+      "BitelSDK/Assets/*.ttf"
+    ]
+  },
+  "dependencies": {
+    "Socket.IO-Client-Swift": [
+      "~> 11.1.0"
+    ],
+    "SwiftHTTP": [
+      "~> 2.0.0"
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "RxSwift": [
+      "~> 3.0"
+    ],
+    "RxCocoa": [
+      "~> 3.0"
+    ],
+    "SelectController": [
+      "~> 2.5.0"
+    ]
+  }
+}
